@@ -59,12 +59,18 @@ export default function Home() {
         Get started by configuring polygon network, metamask, and token wallet.
         </p>
         <div className={styles.grid}>
-          <a href="https://wiki.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/" className={styles.card}>
+          <a href="https://wiki.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/" className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <h2>Blockchain &rarr;</h2>
             <p>Configure Polygon Network URL on Metamask.</p>
           </a>
 
-          <a href="https://help.matcha.xyz/en/articles/4313369-why-don-t-i-see-the-token-i-just-bought-in-my-metamask-wallet" className={styles.card}>
+          <a href="https://help.matcha.xyz/en/articles/4313369-why-don-t-i-see-the-token-i-just-bought-in-my-metamask-wallet" className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <h2>MetaMask &rarr;</h2>
             <p>Add Token to Metamask Wallet registry as a custom token!</p>
           </a>
@@ -72,6 +78,8 @@ export default function Home() {
           <a
             href="https://polygonscan.com/"
             className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <h2>PolygonScan &rarr;</h2>
             <p>Manually verify a token you have claimed is in your wallet.</p>
@@ -79,7 +87,9 @@ export default function Home() {
 
           <a
             href="https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/providing-liquidity"
-            className={styles.card}
+            className={styles.card} 
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <h2>Liquidity &rarr;</h2>
             <p>
@@ -98,7 +108,8 @@ export default function Home() {
 
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="https://twitter.com/izzzy_xyz">
+          <Nav.Link href="https://twitter.com/izzzy_xyz" target="_blank"
+          rel="noopener noreferrer">
           <img
               src="/twitter.png"
               width="100"
@@ -109,7 +120,8 @@ export default function Home() {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="https://izzzy.xyz/roadmap">
+          <Nav.Link href="https://izzzy.xyz/roadmap" target="_blank"
+          rel="noopener noreferrer">
           <img
               src="/roadmap.png"
               width="100"
@@ -120,7 +132,8 @@ export default function Home() {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="https://polygonscan.com/token/0x612e62488A2d36018ec7539a6a8BcfFC412B5eD6">
+          <Nav.Link href="https://polygonscan.com/token/0x612e62488A2d36018ec7539a6a8BcfFC412B5eD6" target="_blank"
+          rel="noopener noreferrer">
           <img
               src="/polygonscan.png"
               width="100"
@@ -131,7 +144,8 @@ export default function Home() {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="https://izzzy.xyz/discord">
+          <Nav.Link href="https://izzzy.xyz/discord" target="_blank"
+          rel="noopener noreferrer">
           <img
               src="/discord.png"
               width="100"
